@@ -25,7 +25,7 @@ namespace RestaurantAPI
                     });
 
                     var currentProcess = Process.GetCurrentProcess();
-                    builder.AddFile($"Logs/Restaurant_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}_{currentProcess.ProcessName}_{currentProcess.Id}.log", LogLevel.Debug);
+                    builder.AddFile($"Logs/RestaurantAPI_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}_{currentProcess.ProcessName}_{currentProcess.Id}.log", LogLevel.Debug);
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
