@@ -14,7 +14,7 @@ It uses **Entity Framework Core** to communicate with a database, which contains
 
 ## How to use
 * Open the solution and run it.
-* You can either use the swagger or postman or any other posting methos to get and post from the api.
+* You can either use the swagger or postman or any other posting methods to get and post from the api.
 * There is the following functionality :
 * POST a new dish to the menu(/api/dishes), 
 * GET what dishes are on the menu(/api/dishes), 
