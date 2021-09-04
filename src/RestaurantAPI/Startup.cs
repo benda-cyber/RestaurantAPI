@@ -41,7 +41,7 @@ namespace RestaurantAPI
             if (!env.IsProduction())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "JonesTest v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Restaurant Api v1"));
             }
 
             app.UseHttpsRedirection();
