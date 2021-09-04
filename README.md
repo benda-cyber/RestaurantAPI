@@ -4,7 +4,7 @@
 This project is a **.NET 5** implemented Web API for a small restaurant management.
 Uses the RESTful api rules and clean architecture.
 
-**RestaurantAPI** enables communication with any database using **Entity Framework Core** consisting of sending and receiving data regarding orders and dishes.
+**RestaurantAPI** enables communication with any database using **Entity Framework Core** consisting of sending and receiving data regarding orders and dishes, the database that is being used is a local sql database.
 
 
 ## Stack
